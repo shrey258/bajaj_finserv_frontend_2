@@ -12,7 +12,7 @@ export default function Home() {
     try {
       setMessage(null);
       const parsedJson = JSON.parse(enteredText);
-      fetch("http://localhost:3000/bfhl", {
+      fetch("https://bajaj-finserv-backend-2.vercel.app/bfhl", {
         method: "POST",
         
         headers: {
